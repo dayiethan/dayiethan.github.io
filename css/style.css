@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #ffffff;
+  color: #b8a07e;
   font-weight: 600;
 }
 
@@ -412,7 +412,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #b8a07e;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
