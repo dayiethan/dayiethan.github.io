@@ -523,10 +523,10 @@ th, td {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Journal
+/*  tutoring
 /*-----------------------------------------------------------------------------------*/
 
-#journal,  #journal-blog {
+#tutoring,  #tutoring-blog {
   height: auto;
   width: 100%;
   
@@ -534,31 +534,31 @@ th, td {
   position: relative;
 }
 
-#journal-blog {
+#tutoring-blog {
   background: #fff;
   padding-bottom: 30px;
 }
 
-#journal .journal-block {
+#tutoring .tutoring-block {
   display: inline-block;
   height: auto;
   width: 100%;
 }
 
-#journal .journal-block .journal-info {
+#tutoring .tutoring-block .tutoring-info {
   position: relative;
 }
 
-.journal-block .journal-info img {
+.tutoring-block .tutoring-info img {
   max-width: 100%;
 }
 
-.journal-block .journal-info .journal-txt {
+.tutoring-block .tutoring-info .tutoring-txt {
   padding: 25px 0px;
   position: relative;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.tutoring-block .tutoring-info .tutoring-txt h4 a {
   display: block;
   font-size: 19px;
   line-height: 24px;
@@ -572,7 +572,7 @@ th, td {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
+.tutoring-block .tutoring-info .tutoring-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -581,7 +581,7 @@ th, td {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt p {
+.tutoring-block .tutoring-info .tutoring-txt p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
