@@ -288,7 +288,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -390,6 +390,75 @@ nav ul li a {
   display: none;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  Education
+/*-----------------------------------------------------------------------------------*/
+
+#education {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#education .education-list {
+  margin-bottom: 50px;
+}
+
+#education .education-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#education .education-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #b8a07e;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#education .education-list .nav li:hover, #education .education-list .nav li.filter-active  {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#education .education-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.education-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.education-thumbnail img {
+  max-width: 100%;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+body {text-align:center;}
+th, td {
+  padding: 45px;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
@@ -398,6 +467,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  background: #f7f7f7;
 }
 
 #portfolio .portfolio-list {
@@ -459,7 +529,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  
   padding-bottom: 60px;
   position: relative;
 }
@@ -524,6 +594,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  background: #f7f7f7;
 }
 
 .contact-details {
@@ -578,7 +649,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #b8a07e;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -601,7 +672,7 @@ nav ul li a {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: white;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -614,7 +685,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #dbcebd;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -628,8 +699,10 @@ nav ul li a {
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
+  color:white;
 }
 
 .credits {
   font-size: 13px;
+  color:white;
 }
