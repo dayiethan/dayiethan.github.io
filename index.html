@@ -259,14 +259,20 @@ input::-moz-focus-inner {
             <table class="center">
             <tr>
               <td>
+              <a>
+                  <img id="yale" src="images/education/yale.jpg"  alt="yale" style="width:300px; cursor:pointer;"> 
+                </a>
+              </td>
+
+            <td>
                 <a>
-                  <img src="images/portfolio/1.jpg" alt="img" style="width:450px">
+                  <img id="uwmadison" src="images/education/uwmadison.jpg" alt="uwmadison" style="width:300px; cursor:pointer;">
                 </a>
               </td>
 
               <td>
-              <a>
-                  <img src="images/portfolio/2.jpg"  alt="img" style="width:450px"> 
+                <a>
+                  <img id="westhigh" src="images/education/west.jpg" alt="west" style="width:300px; cursor:pointer;">
                 </a>
               </td>
             </tr>
@@ -276,9 +282,9 @@ input::-moz-focus-inner {
       </div>
     </div>
   </div>
-  <!-- end section education -->
+<!-- end section education -->
 
-  <!-- start section experience -->
+<!-- start section experience -->
   <div id="portfolio" class="text-center paddsection">
 
     <div class="container">
@@ -418,7 +424,7 @@ input::-moz-focus-inner {
   <!-- End section tutoring -->
 
 
-  <!-- start sectoion contact -->
+  <!-- start section contact -->
   <div id="contact" class="text-center">
     <div class="container">
       <div class="contact-block1">
@@ -471,6 +477,97 @@ input::-moz-focus-inner {
     </div>
   </div>
   <!-- End section footer -->
+
+<div id="yaleModal" class="modal">
+
+  <!-- Modal content -->
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('yaleModal').style.display='none'" class="close">&times;</span>
+    <h2>Yale University</h2>
+    <h4 style="text-align:center;">SEP 2020 - MAY 2024 &nbsp; New Haven, CT</h4>
+    <h4 style="text-align:center;">BS Mechanical Engineering and Computer Science</h4>
+  </div>
+
+</div>
+
+<div id="uwmadisonModal" class="modal">
+
+  <!-- Modal content -->
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('uwmadisonModal').style.display='none'" class="close">&times;</span>
+    <h2>University of Wisconsin Madison</h2>
+    <h4 style="text-align:center;">JUN 2018 - JUN 2020 &nbsp; Madison, WI</h4>
+    <h4 style="text-align:center;">Dual Enrollment</h4>
+  </div>
+
+</div>
+
+<div id="westhighModal" class="modal">
+
+  <!-- Modal content -->
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('westhighModal').style.display='none'" class="close">&times;</span>
+    <h2>West High School</h2>
+    <h4 style="text-align:center;">SEP 2016 - JUN 2020 &nbsp; Madison, WI</h4>
+    <h4 style="text-align:center;">High School Diploma</h4>
+    <table>
+      <tr>
+        <td>
+  </div>
+
+</div>
+
+  <script>
+// Get the modal
+var modal = document.getElementById("westhighModal");
+var modal2 = document.getElementById("yaleModal");
+var modal3 = document.getElementById("uwmadisonModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("westhigh");
+var btn2 = document.getElementById("yale");
+var btn3 = document.getElementById("uwmadison");
+
+// Get the <span> element that closes the modal
+//var span = document.getElementsByClassName("close")[0];
+//var span2 = document.getElementsByClassName("close")[1];
+//var span3 = document.getElementsByClassName("close")[2];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+//span.onclick = function() {
+//  modal.style.display = "none";
+//}
+//span2.onclick = function() {
+//  modal2.style.display = "none";
+//}
+//span3.onclick = function() {
+//  modal3.style.display = "none";
+//}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3) {
+    modal.style.display = "none";
+    modal2.style.display = "none";
+    modal3.style.display = "none";
+  }
+}
+
+</script>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
