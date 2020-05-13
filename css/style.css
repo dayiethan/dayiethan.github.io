@@ -609,10 +609,11 @@ th, td {
 
 #tutoring,  #tutoring-blog {
   height: auto;
-  width: 100%;
+  width: 50%;
+  margin:auto;
   
   padding-bottom: 60px;
-  position: relative;
+  position: center;
 }
 
 #tutoring-blog {
