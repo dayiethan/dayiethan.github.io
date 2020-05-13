@@ -519,7 +519,7 @@ th, td {
 
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background: #f7f7f7;
 }
 
@@ -561,18 +561,46 @@ th, td {
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   width: 100%;
 }
 
 .portfolio-thumbnail {
-  margin-bottom: 30px;
+  margin-bottom: -30px;
   overflow: hidden;
   min-height: 260px;
 }
 
 .portfolio-thumbnail img {
   max-width: 100%;
+}
+
+#unimatch{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#badgerbots{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#elevatelearning{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#hillfarm{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#uwme{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#peertutors{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#swimteam{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#roboticsclub{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#sciencebowl{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 
 /*-----------------------------------------------------------------------------------*/
