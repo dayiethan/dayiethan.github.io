@@ -464,6 +464,11 @@ th, td {
   padding: 45px;
 }
 
+.westhightable td{
+  padding: 7px 20px 7px 20px;
+  text-align:left;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -502,6 +507,7 @@ th, td {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 #yale{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
