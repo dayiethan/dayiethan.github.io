@@ -519,13 +519,13 @@ th, td {
   border:1px solid black;
 }
 
-#yale:hover{
+#yaleimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
-#uwmadison:hover{
+#uwmadisonimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
-#west:hover{
+#westimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 
