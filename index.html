@@ -261,34 +261,31 @@ input::-moz-focus-inner {
       <div class="row">
         <div class="col-md-12">
 
-          <div class="education-container">
-            <table class="center">
-            <tr>
-              <td>
-                <a>
-                  <div>
-                    <img id="yale" src="images/education/yale.png"  alt="yale" style="width:300px; cursor:pointer;"> 
-                  </div>
-                </a>
-              </td>
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+              <a>
+                <div id="yalediv">
+                  <img id="yaleimg" src="images/education/yale.png"  alt="yale" style="width:300px; cursor:pointer;"> 
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+              <a>
+                <div id="uwmadisondiv">
+                  <img id="uwmadisonimg" src="images/education/uwmadison.png" alt="uwmadison" style="width:300px; cursor:pointer;">
+                </div>
+              </a>
+            </div>
 
-            <td>
-                <a>
-                  <div> 
-                    <img id="uwmadison" src="images/education/uwmadison.png" alt="uwmadison" style="width:300px; cursor:pointer;">
-                  </div>
-                </a>
-              </td>
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail">
+              <a>
+                <div id="westdiv">
+                  <img id="westimg" src="images/education/west.png" alt="west" style="width:300px; cursor:pointer;">
+                </div>
+              </a>
+            </div>          
 
-              <td>
-                <a>
-                  <div>
-                    <img id="west" src="images/education/west.png" alt="west" style="width:300px; cursor:pointer;">
-                  </div>
-                </a>
-              </td>
-            </tr>
-            </table>
           </div>
         </div>
       </div>
@@ -977,9 +974,9 @@ var modal17 = document.getElementById("nationalapModal");
 var modal18 = document.getElementById("deanslistModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("westhigh");
-var btn2 = document.getElementById("yale");
-var btn3 = document.getElementById("uwmadison");
+var btn = document.getElementById("westdiv");
+var btn2 = document.getElementById("yalediv");
+var btn3 = document.getElementById("uwmadisondiv");
 var btn4 = document.getElementById("unimatch");
 var btn5 = document.getElementById("badgerbots");
 var btn6 = document.getElementById("elevatelearning");
