@@ -656,6 +656,50 @@ th, td {
   	.desc2 { grid-area: 4 / 1 / 5 / 3; }
 }
 
+.grid-container-hillfarm {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-hillfarm > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .hillfarmdesc { grid-area: 1 / 1 / 2 / 3; }
+  .hillfarmpic { grid-area: 2 / 1 / 3 / 3; }
+}
+
+.grid-container-uwme {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-uwme > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .cadpic { grid-area: 1 / 1 / 2 / 3; }
+  .realpic { grid-area: 3 / 1 / 4 / 3; }
+  .caddesc { grid-area: 2 / 1 / 3 / 3; }
+  .realdesc { grid-area: 4 / 1 / 5 / 3; }
+}
+
 #unimatch{
   border:1px solid black;
 }
