@@ -598,6 +598,13 @@ th, td {
   max-width: 100%;
 }
 
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    max-width: 85%;
+  }
+}
+
 #unimatch{
   border:1px solid black;
 }
