@@ -723,6 +723,26 @@ th, td {
   .clubdesc { grid-area: 4 / 1 / 5 / 3; }
 }
 
+.grid-container-presidentialscholar {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-presidentialscholar > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .mainimage { grid-area: 1 / 1 / 2 / 3; }
+}
+
 #unimatch{
   border:1px solid black;
 }
