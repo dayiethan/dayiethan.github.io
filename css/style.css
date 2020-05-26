@@ -508,6 +508,63 @@ th, td {
   cursor: pointer;
 }
 
+#education {
+  position: relative;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+#education .education-list {
+  margin-bottom: 50px;
+}
+
+#education .education-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#education .education-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #b8a07e;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#education .education-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#education .education-container {
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.education-thumbnail {
+  margin-bottom: -30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.education-thumbnail img {
+  max-width: 100%;
+}
 
 #yaleimg{
   border:1px solid black;
