@@ -321,6 +321,14 @@ input::-moz-focus-inner {
 
           <div class="portfolio-container">
 
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all work">
+              <a>
+                <div>
+                  <img id="birdwellsolutions" src="images/portfolio/birdwellsolutions.png" alt="birdwellsolutions" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
               <a>
                 <div>
@@ -673,6 +681,22 @@ input::-moz-focus-inner {
   </div>
 </div>
 
+<div id="birdwellsolutionsModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('unimatchModal').style.display='none'" class="close">&times;</span>
+    <h2>Birdwell Solutions</h2>
+    <h4 style="text-align:center;color:#999999;">JUN 2020 - PRESENT
+    <br>Intern</h4>
+    <br><h1 style="text-align:left;margin-left:80px;margin-bottom:-20px;text-align:left;color:black;font-size:25px;">Summary:</h1>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Birdwell Solutions helps companies bring their business to the internet through a variety 
+    of mediums including app development.</p>
+    <br><h1 style="text-align:left;margin-left:80px;margin-bottom:-20px;text-align:left;color:black;font-size:25px;">My Role:</h1>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">I am currently learning front-end and back-end development on their mobile app API.</p>
+  </div>
+
+</div>
+
 <div id="unimatchModal" class="modal">
   
   <div class="modal-content">
@@ -974,6 +998,7 @@ var modal15 = document.getElementById("nationalmeritModal");
 var modal16 = document.getElementById("presidentialscholarModal");
 var modal17 = document.getElementById("nationalapModal");
 var modal18 = document.getElementById("deanslistModal");
+var modal19 = document.getElementById("birdwellsolutionsModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -994,6 +1019,7 @@ var btn15 = document.getElementById("nationalmerit");
 var btn16 = document.getElementById("presidentialscholar");
 var btn17 = document.getElementById("nationalap");
 var btn18 = document.getElementById("deanslist");
+var btn19 = document.getElementById("birdwellsolutions");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1050,10 +1076,13 @@ btn17.onclick = function() {
 btn18.onclick = function() {
   modal18.style.display = "block";
 }
+btn19.onclick = function() {
+  modal19.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1072,6 +1101,7 @@ window.onclick = function(event) {
     modal16.style.display = "none";
     modal17.style.display = "none";
     modal18.style.display = "none";
+    modal19.style.display = "none";
   }
 }
 <!--End Modals-->
