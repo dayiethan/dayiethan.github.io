@@ -321,6 +321,22 @@ input::-moz-focus-inner {
 
           <div class="portfolio-container">
 
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
+              <a>
+                <div>
+                  <img id="allamerica" src="images/portfolio/allamerica.png" alt="allamerica" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
+              <a>
+                <div>
+                  <img id="scholarathlete" src="images/portfolio/scholarathlete.png" alt="scholarathlete" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all work">
               <a>
                 <div>
@@ -681,10 +697,37 @@ input::-moz-focus-inner {
   </div>
 </div>
 
+<div id="allamericaModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('allamericaModal').style.display='none'" class="close">&times;</span>
+    <h2>All America Academic</h2>
+    <br><h4 style="text-align:center;color:#999999;">JUN 2020</h4>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">A national award for not only having varsity-lettered in swimming 
+    during my four years of high school but also finishing my first seven semesters with a minimum 3.75 GPA.</p>
+    <br><a style="color:#b8a07e;" target="_blank" href="https://niscaonline.org/index.php/award-programs/academic-all-america">More Information</a>
+  </div>
+
+</div>
+
+<div id="scholarathleteModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('scholarathleteModal').style.display='none'" class="close">&times;</span>
+    <h2>Scholar-Athlete Recognition</h2>
+    <h4 style="text-align:center;color:#999999;">JUN 2020</h4>
+    <br><p style="text-align:left; margin-left:6vw;margin-right:6vw;">"This student is recognized for both academic 
+    and athletic achievement by meeting the requirements of multi-season participation while maintaining an 'A' or 'B' grade point average. 
+    The NIAAA commends the excellence displayed as a student-athlete participating in an education-based school athletic program."</p>
+    <br><a style="color:#b8a07e;" target="_blank" href="https://members.niaaa.org/">More Information</a>
+  </div>
+
+</div>
+
 <div id="birdwellsolutionsModal" class="modal">
   
   <div class="modal-content">
-    <span onclick="document.getElementById('unimatchModal').style.display='none'" class="close">&times;</span>
+    <span onclick="document.getElementById('birdwellsolutionsModal').style.display='none'" class="close">&times;</span>
     <h2>Birdwell Solutions</h2>
     <h4 style="text-align:center;color:#999999;">JUN 2020 - PRESENT
     <br>Intern</h4>
@@ -999,6 +1042,8 @@ var modal16 = document.getElementById("presidentialscholarModal");
 var modal17 = document.getElementById("nationalapModal");
 var modal18 = document.getElementById("deanslistModal");
 var modal19 = document.getElementById("birdwellsolutionsModal");
+var modal20 = document.getElementById("allamericaModal");
+var modal21 = document.getElementById("scholarathleteModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1020,6 +1065,8 @@ var btn16 = document.getElementById("presidentialscholar");
 var btn17 = document.getElementById("nationalap");
 var btn18 = document.getElementById("deanslist");
 var btn19 = document.getElementById("birdwellsolutions");
+var btn20 = document.getElementById("allamerica");
+var btn21 = document.getElementById("scholarathlete");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1079,10 +1126,16 @@ btn18.onclick = function() {
 btn19.onclick = function() {
   modal19.style.display = "block";
 }
+btn20.onclick = function() {
+  modal20.style.display = "block";
+}
+btn21.onclick = function() {
+  modal21.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1102,6 +1155,8 @@ window.onclick = function(event) {
     modal17.style.display = "none";
     modal18.style.display = "none";
     modal19.style.display = "none";
+    modal20.style.display = "none";
+    modal21.style.display = "none";
   }
 }
 <!--End Modals-->
