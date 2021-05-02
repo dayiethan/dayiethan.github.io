@@ -305,6 +305,7 @@
   /* Navbar */
   nav {
     padding: 20px 15px;
+    display: none;
   }
   .nav-menu {
     margin-top: 40px;
