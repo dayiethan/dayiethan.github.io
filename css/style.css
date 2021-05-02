@@ -469,6 +469,11 @@ th, td {
   text-align:left;
 }
 
+.aptable td{
+  padding: 4px 20px 4px 20px;
+  text-align:left;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
