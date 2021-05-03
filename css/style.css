@@ -831,10 +831,10 @@ th, td {
 #swimteam{
   border:1px solid black;
 }
-#roboticsclub{
+#alexander{
   border:1px solid black;
 }
-#sciencebowl{
+#codehaven{
   border:1px solid black;
 }
 #nhs{
@@ -886,10 +886,10 @@ th, td {
 #swimteam:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
-#roboticsclub:hover{
+#alexander:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
-#sciencebowl:hover{
+#codehaven:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #nhs:hover{
