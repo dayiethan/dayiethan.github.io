@@ -1161,6 +1161,7 @@ var modal18 = document.getElementById("deanslistModal");
 var modal19 = document.getElementById("birdwellsolutionsModal");
 var modal20 = document.getElementById("allamericaModal");
 var modal21 = document.getElementById("scholarathleteModal");
+var modal22 = document.getElementById("ialabModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1184,6 +1185,7 @@ var btn18 = document.getElementById("deanslist");
 var btn19 = document.getElementById("birdwellsolutions");
 var btn20 = document.getElementById("allamerica");
 var btn21 = document.getElementById("scholarathlete");
+var btn22 = document.getElementById("ialab");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1249,10 +1251,13 @@ btn20.onclick = function() {
 btn21.onclick = function() {
   modal21.style.display = "block";
 }
+btn22.onclick = function() {
+  modal22.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1274,6 +1279,7 @@ window.onclick = function(event) {
     modal19.style.display = "none";
     modal20.style.display = "none";
     modal21.style.display = "none";
+    modal22.style.display = "none";
   }
 }
 //<!--End Modals-->
