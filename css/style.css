@@ -767,6 +767,26 @@ th, td {
   .realdesc { grid-area: 4 / 1 / 5 / 3; }
 }
 
+.grid-container-ialab {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-ialab > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
 .grid-container-swimteam {
   display: grid;
   grid-template-columns: auto auto;
@@ -825,6 +845,9 @@ th, td {
 #uwme{
   border:1px solid black;
 }
+#ialab{
+  border:1px solid black;
+}
 #peertutors{
   border:1px solid black;
 }
@@ -878,6 +901,9 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #uwme:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#ialab:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #peertutors:hover{
