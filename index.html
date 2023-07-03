@@ -122,8 +122,9 @@ input::-moz-focus-inner {
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#education" class="smoothScroll">Education</a></li>
+          <li><a href="#publication" class="smoothScroll">Publications</a></li>
           <li><a href="#portfolio" class="smoothScroll">Experience</a></li>
-          <li><a href="#tutoring" class="smoothScroll">Tutoring</a></li>
+          <!-- <li><a href="#tutoring" class="smoothScroll">Tutoring</a></li> -->
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
 
@@ -145,10 +146,10 @@ input::-moz-focus-inner {
         <ul class="list-unstyled list-social">
           <li><a href="mailto:dayiethan@gmail.com"><i class="ion-email"></i></a></li>
           <li><a href="https://www.linkedin.com/in/dayi-dong/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=2vDBmI0AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a></li>
           <li><a href="https://www.facebook.com/dayi.dong" target="_blank"><i class="ion-social-facebook"></i></a></li>
           <li><a href="https://www.instagram.com/ethan_dong_/" target="_blank"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="https://twitter.com/ethan_dong_" target="_blank"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="https://scholar.google.com/citations?user=2vDBmI0AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a></li>
+          <!-- <li><a href="https://twitter.com/ethan_dong_" target="_blank"><i class="ion-social-twitter"></i></a></li> -->
         </ul>
       </div>
     </div>
@@ -306,7 +307,7 @@ input::-moz-focus-inner {
                   <img id="westimg" src="images/education/west.png" alt="west" style="width:300px; cursor:pointer;">
                 </div>
               </a>
-            </div>          
+            </div>     
 
           </div>
         </div>
@@ -314,6 +315,43 @@ input::-moz-focus-inner {
     </div>
   </div>
 <!-- end section education -->
+
+<!-- start section publications -->  
+<div id="publication" class="text-center paddsection">
+
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Publications</h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="portfolio-container">
+          <div class="col-lg-6 col-md-6 portfolio-thumbnail all work volunteering leadership business awards">
+            <a>
+              <div id="ergodiccbfdiv">
+                <img id="ergodiccbfimg" src="images/Publications/ergodiccbf.png"  alt="ergodiccbf" style="width:300px; cursor:pointer;"> 
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 portfolio-thumbnail all work volunteering leadership business awards">
+            <a>
+              <div id="timeoptimalergodicdiv">
+                <img id="timeoptimalergodicimg" src="images/Publications/timeoptimalergodic.png" alt="timeoptimalergodic" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section publications -->
 
 <!-- start section experience -->
   <div id="portfolio" class="text-center paddsection">
@@ -614,9 +652,10 @@ input::-moz-focus-inner {
         <ul class="list-unstyled">
           <li><a href="mailto:dayiethan@gmail.com"><i class="ion-email"></i></a></li>
           <li><a href="https://www.linkedin.com/in/dayi-dong/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=2vDBmI0AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-1x"></i></a></li>
           <li><a href="https://www.facebook.com/dayi.dong" target="_blank"><i class="ion-social-facebook"></i></a></li>
           <li><a href="https://www.instagram.com/ethan_dong/" target="_blank"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="https://twitter.com/ethan_dong_" target="_blank"><i class="ion-social-twitter"></i></a></li>
+          <!-- <li><a href="https://twitter.com/ethan_dong_" target="_blank"><i class="ion-social-twitter"></i></a></li> -->
         </ul>
 
       </div>
@@ -782,6 +821,71 @@ input::-moz-focus-inner {
     </div>
   </div>
 </div>
+
+<div id="ergodiccbfModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('ergodiccbfModal').style.display='none'" class="close">&times;</span>
+    <h2>Safety-Critical Ergodic Exploration in Cluttered Environments</h2>
+    <h2>via Control Barrier Functions</h2>
+    <br><h3 style="text-align:center;color:#999999;">Accepted to ICRA 2023</h3>
+    <h3 style="text-align:center;color:#999999;">Second Author</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;"> In this paper, we address the problem of safe
+      trajectory planning for autonomous search and exploration
+      in constrained, cluttered environments. Guaranteeing safe
+      (collision-free) trajectories is a challenging problem that has
+      garnered significant due to its importance in the successful
+      utilization of robots in search and exploration tasks. This work
+      contributes a method that generates guaranteed safety-critical
+      search trajectories in a cluttered environment. Our approach
+      integrates safety-critical constraints using discrete control bar-
+      rier functions (DCBFs) with ergodic trajectory optimization to
+      enable safe exploration. Ergodic trajectory optimization plans
+      continuous exploratory trajectories that guarantee complete
+      coverage of a space. We demonstrate through simulated and
+      experimental results on a drone that our approach is able to
+      generate trajectories that enable safe and effective exploration.
+      Furthermore, we show the efficacy of our approach for safe
+      exploration using real-world single- and multi- drone platforms.</p>
+    <br><a style="color:#b8a07e;" target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u5HHmVD_uO8C">Paper Link</a>
+  </div>
+
+</div>
+
+<div id="timeoptimalergodicModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('timeoptimalergodicModal').style.display='none'" class="close">&times;</span>
+    <h2>Time Optimal Ergodic Search</h2>
+    <br><h3 style="text-align:center;color:#999999;">Accepted to RSS 2023</h3>
+    <h3 style="text-align:center;color:#999999;">First Author</h3>
+    <h3 style="text-align:center;color:#999999;">Best Paper Award Finalist</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Robots with the ability to balance time against the
+      thoroughness of search have the potential to provide time-critical
+      assistance in applications such as search and rescue. Current
+      advances in ergodic coverage-based search methods have enabled
+      robots to completely explore and search an area in a fixed
+      amount of time. However, optimizing time against the quality of
+      autonomous ergodic search has yet to be demonstrated. In this
+      paper, we investigate solutions to the time-optimal ergodic search
+      problem for fast and adaptive robotic search and exploration. We
+      pose the problem as a minimum time problem with an ergodic in-
+      equality constraint whose upper bound regulates and balances the
+      granularity of search against time. Solutions to the problem are
+      presented analytically using Pontryagin’s conditions of optimality
+      and demonstrated numerically through a direct transcription
+      optimization approach. We show the efficacy of the approach in
+      generating time-optimal ergodic search trajectories in simulation
+      and with drone experiments in a cluttered environment. Obstacle
+      avoidance is shown to be readily integrated into our formulation,
+      and we perform ablation studies that investigate parameter
+      dependence on optimized time and trajectory sensitivity for
+      search.</p>
+      <br><a style="color:#b8a07e;" target="_blank" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u-x6o8ySG0sC">Paper Link</a>
+  </div>
+
+</div>
+
 
 <div id="allamericaModal" class="modal">
   
@@ -1184,6 +1288,8 @@ var modal20 = document.getElementById("allamericaModal");
 var modal21 = document.getElementById("scholarathleteModal");
 var modal22 = document.getElementById("ialabModal");
 var modal23 = document.getElementById("rissModal");
+var modal24 = document.getElementById("ergodiccbfModal")
+var modal25 = document.getElementById("timeoptimalergodicModal")
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1209,6 +1315,8 @@ var btn20 = document.getElementById("allamerica");
 var btn21 = document.getElementById("scholarathlete");
 var btn22 = document.getElementById("ialab");
 var btn23 = document.getElementById("riss");
+var btn24 = document.getElementById("ergodiccbfdiv")
+var btn25 = document.getElementById("timeoptimalergodicdiv")
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1280,10 +1388,16 @@ btn22.onclick = function() {
 btn23.onclick = function() {
   modal23.style.display = "block";
 }
+btn24.onclick = function() {
+  modal24.style.display = "block";
+}
+btn25.onclick = function() {
+  modal25.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1307,6 +1421,8 @@ window.onclick = function(event) {
     modal21.style.display = "none";
     modal22.style.display = "none";
     modal23.style.display = "none";
+    modal24.style.display = "none";
+    modal25.style.display = "none";
   }
 }
 //<!--End Modals-->
