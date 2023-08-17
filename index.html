@@ -389,6 +389,14 @@ input::-moz-focus-inner {
 
           <div class="portfolio-container">
 
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all award">
+              <a>
+                <div>
+                  <img id="rss23" src="images/portfolio/rss23.png" alt="rss23" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+            
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all research">
               <a>
                 <div>
@@ -1128,6 +1136,23 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="rss23Modal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('rss23Modal').style.display='none'" class="close">&times;</span>
+    <h2>Robotics: Science and Systems 2023 Conference</h2>
+    <h2 style="text-align:center;color:#fdc450;">Best Paper Award</h2>
+    <h4 style="text-align:center;color:#999999;">JULY 2023</h4>
+    <br>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">My first-author paper "Time Optimal Ergodic Search" won the Best Paper Award at the <a href="https://roboticsconference.org/", style="color:#b8a07e;", target="_blank">RSS 2023</a> Conference.</p>
+    <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u-x6o8ySG0sC", style="color:#b8a07e;", target="_blank">Google Scholar</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <a href="https://arxiv.org/abs/2305.11643", style="color:#b8a07e;", target="_blank">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <a href="https://youtu.be/ftQhK75Ri1E?t=17380", style="color:#b8a07e;", target="_blank">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <a href="https://drive.google.com/file/d/16y0-UHQLDbroJXAxTLVRZL8a43FmJby9/view?usp=sharing", style="color:#b8a07e;", target="_blank">Poster</a></p>
+  </div>
+
+</div>
+
 
 <div id="peertutorsModal" class="modal">
   
@@ -1309,8 +1334,9 @@ var modal20 = document.getElementById("allamericaModal");
 var modal21 = document.getElementById("scholarathleteModal");
 var modal22 = document.getElementById("ialabModal");
 var modal23 = document.getElementById("rissModal");
-var modal24 = document.getElementById("ergodiccbfModal")
-var modal25 = document.getElementById("timeoptimalergodicModal")
+var modal24 = document.getElementById("ergodiccbfModal");
+var modal25 = document.getElementById("timeoptimalergodicModal");
+var modal26 = document.getElementById("rss23Modal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1336,8 +1362,9 @@ var btn20 = document.getElementById("allamerica");
 var btn21 = document.getElementById("scholarathlete");
 var btn22 = document.getElementById("ialab");
 var btn23 = document.getElementById("riss");
-var btn24 = document.getElementById("ergodiccbfdiv")
-var btn25 = document.getElementById("timeoptimalergodicdiv")
+var btn24 = document.getElementById("ergodiccbfdiv");
+var btn25 = document.getElementById("timeoptimalergodicdiv");
+var btn26 = document.getElementById("rss23");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1415,10 +1442,13 @@ btn24.onclick = function() {
 btn25.onclick = function() {
   modal25.style.display = "block";
 }
+btn26.onclick = function() {
+  modal26.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1444,6 +1474,7 @@ window.onclick = function(event) {
     modal23.style.display = "none";
     modal24.style.display = "none";
     modal25.style.display = "none";
+    modal26.style.display = "none";
   }
 }
 //<!--End Modals-->

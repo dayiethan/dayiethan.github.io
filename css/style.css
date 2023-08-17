@@ -1040,6 +1040,26 @@ th, td {
 
 }
 
+.grid-container-rss23 {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-rss23 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
 
 .grid-container-swimteam {
   display: grid;
@@ -1105,6 +1125,9 @@ th, td {
 #riss{
   border:1px solid black;
 }
+#rss23{
+  border:1px solid black;
+}
 #peertutors{
   border:1px solid black;
 }
@@ -1164,6 +1187,9 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #riss:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#rss23:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #peertutors:hover{
