@@ -576,6 +576,10 @@ th, td {
   max-width: 100%;
 }
 
+#calimg{
+  border:1px solid black;
+}
+
 #yaleimg{
   border:1px solid black;
 }
@@ -584,6 +588,10 @@ th, td {
 }
 #westimg{
   border:1px solid black;
+}
+
+#calimg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 
 #yaleimg:hover{
@@ -1060,6 +1068,85 @@ th, td {
 
 }
 
+.grid-container-mrs {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-mrs > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+.grid-container-pbk {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-pbk > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+.grid-container-tbp {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-tbp > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+.grid-container-cra {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-cra > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
 
 .grid-container-swimteam {
   display: grid;
@@ -1128,6 +1215,18 @@ th, td {
 #rss23{
   border:1px solid black;
 }
+#mrs{
+  border:1px solid black;
+}
+#pbk{
+  border:1px solid black;
+}
+#tbp{
+  border:1px solid black;
+}
+#cra{
+  border:1px solid black;
+}
 #peertutors{
   border:1px solid black;
 }
@@ -1190,6 +1289,18 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #rss23:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#mrs:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#pbk:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#tbp:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#cra:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #peertutors:hover{
