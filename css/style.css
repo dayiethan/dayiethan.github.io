@@ -1108,6 +1108,26 @@ th, td {
 
 }
 
+.grid-container-dwm {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-dwm > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
 .grid-container-tbp {
   display: grid;
   grid-template-columns: auto auto;
@@ -1221,6 +1241,9 @@ th, td {
 #pbk{
   border:1px solid black;
 }
+#dwm{
+  border:1px solid black;
+}
 #tbp{
   border:1px solid black;
 }
@@ -1295,6 +1318,9 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #pbk:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#dwm:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #tbp:hover{

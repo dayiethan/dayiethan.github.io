@@ -324,6 +324,14 @@ input::-moz-focus-inner {
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
               <a>
                 <div>
+                  <img id="dwm" src="images/portfolio/dwm.png" alt="dwm" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
+              <a>
+                <div>
                   <img id="pbk" src="images/portfolio/pbk.png" alt="pbk" style="cursor:pointer;">
                 </div>
               </a>
@@ -679,8 +687,18 @@ input::-moz-focus-inner {
     <h4 style="text-align:center;color:#999999;">SEP 2020 - MAY 2024 <span>&nbsp;•&nbsp;</span> New Haven, CT
     <br>B.S. Engineering Sciences (Mechanical) and B.S. Computer Science
     <br>GPA: 3.95 | Major GPA: 3.99</h4>
+
+    <h1 style="text-align:left;color:black;font-size:25px;margin-bottom:10px;margin-top:20px;padding:0px;margin-left:6vw;">Awards:</h1>
+    <div style="margin-left:6vw;text-align:left">
+      <ul>
+        <li>Magna Cum Laude</li>
+        <li>Donald Warren McCroskey Memorial Prize</li>
+        <li>Phi Beta Kappa Honor Society</li>
+        <li>Tau Beta Pi Engineering Honor Society</li>
+      </ul>
+    </div>
     <!-- <h1 style="font-size:20px;">Starting here in the Fall of 2020 so nothing to show yet but hoping that it'll be great!</h1> -->
-    <h1 style="text-align:left;color:black;font-size:25px;margin-bottom:10px;margin-top:20px;padding:0px;margin-left:6vw;"> Notable Coursework:</h1>
+    <h1 style="text-align:left;color:black;font-size:25px;margin-bottom:10px;margin-top:20px;padding:0px;margin-left:6vw;">Notable Coursework:</h1>
     <div style="margin-left:6vw;text-align:left">
       <table class="yalecourses">
         <tr>
@@ -688,22 +706,24 @@ input::-moz-focus-inner {
           <td>CHNS 163: Advanced Modern Chinese for Heritage Speakers III</td>
         </tr>
         <tr>
-          <td>CPSC 223: Data Structures & Programming Techniques</td>
-          <td>CPSC 323: Systems Programming and Computer Organization</td>
+          <td>CPSC 489: Robot Learning</td>
+          <td>MENG 405: Introduction to Embedded Robotic Systems</td>
         </tr>
         <tr>
-          <td>CPSC 327: Object-Oriented Programming</td>
+          <td>CPSC 472: Intelligent Robootics</td>
           <td>ENAS 773: Introduction to Robotics, Control, and Learning</td>
         </tr>
         <tr>
           <td>CPSC 470: Artificial Intelligence</td>
-          <td>CPSC 484: Human Computer Interaction</td>
+          <td>CPSC 485: Applied Planning and Optimization</td>
         </tr>
       </table>
     </div>
     <br><br><br><br>
     <!-- <p><a style="color:inherit;" href="https://seas.yale.edu/" target="_blank">Yale School of Engineering and Applied Science</a></p> -->
-    <br><a style="color:#b8a07e;" target="_blank" href="https://seas.yale.edu/">Yale School of Engineering and Applied Science</a>
+    <br>
+    <p><a href="https://seas.yale.edu/", style="color:#b8a07e;", target="_blank">Yale School of Engineering and Applied Science</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <a href="https://cpsc.yale.edu/", style="color:#b8a07e;", target="_blank">Yale Computer Science</a>
   </div>
 
 </div>
@@ -1163,6 +1183,20 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="dwmModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('dwmModal').style.display='none'" class="close">&times;</span>
+    <h2>Donald Warren McCroskey Memorial Prize</h2>
+    <h4 style="text-align:center;color:#999999;">MAY 2024</h4>
+    <br>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Aawarded to a senior who is deserving of the greatest distinction for scholarly achievement in fields related to mechanics and its applications.</p>
+
+  
+  </div>
+
+</div>
+
 <div id="tbpModal" class="modal">
   
   <div class="modal-content">
@@ -1383,6 +1417,7 @@ var modal28 = document.getElementById("mrsModal");
 var modal29 = document.getElementById("pbkModal");
 var modal30 = document.getElementById("tbpModal");
 var modal31 = document.getElementById("craModal");
+var modal32 = document.getElementById("dwmModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1416,6 +1451,7 @@ var btn28 = document.getElementById("mrs");
 var btn29 = document.getElementById("pbk");
 var btn30 = document.getElementById("tbp");
 var btn31 = document.getElementById("cra");
+var btn32 = document.getElementById("dwm");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1511,10 +1547,13 @@ btn30.onclick = function() {
 btn31.onclick = function() {
   modal31.style.display = "block";
 }
+btn32.onclick = function() {
+  modal32.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1546,6 +1585,7 @@ window.onclick = function(event) {
     modal29.style.display = "none";
     modal30.style.display = "none";
     modal31.style.display = "none";
+    modal32.style.display = "none";
   }
 }
 //<!--End Modals-->
