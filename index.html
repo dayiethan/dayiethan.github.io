@@ -324,6 +324,14 @@ input::-moz-focus-inner {
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
               <a>
                 <div>
+                  <img id="berkfellow" src="images/portfolio/berkfellow.png" alt="berkfellow" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards">
+              <a>
+                <div>
                   <img id="dwm" src="images/portfolio/dwm.png" alt="dwm" style="cursor:pointer;">
                 </div>
               </a>
@@ -1238,6 +1246,18 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="berkfellowModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('berkfellowModal').style.display='none'" class="close">&times;</span>
+    <h2>Berkeley Fellowship</h2>
+    <h4 style="text-align:center;color:#999999;">AUG 2024</h4>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">A prestigious award given to highly qualified entering doctoral students.</p>
+    <br><a style="color:#b8a07e;" target="_blank" href="https://grad.berkeley.edu/financial/options-for-financial-support/multi-year-packages/">Website</a>
+  </div>
+
+</div>
+
 <div id="ivyModal" class="modal">
   
   <div class="modal-content">
@@ -1491,6 +1511,7 @@ var modal32 = document.getElementById("dwmModal");
 var modal33 = document.getElementById("pascharModal");
 var modal34 = document.getElementById("ivyModal");
 var modal35 = document.getElementById("tutorModal");
+var modal36 = document.getElementById("berkfellowModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1528,6 +1549,7 @@ var btn32 = document.getElementById("dwm");
 var btn33 = document.getElementById("paschar");
 var btn34 = document.getElementById("ivy");
 var btn35 = document.getElementById("tutor");
+var btn36 = document.getElementById("berkfellow");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1635,10 +1657,13 @@ btn34.onclick = function() {
 btn35.onclick = function() {
   modal35.style.display = "block";
 }
+btn36.onclick = function() {
+  modal36.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35 || event.target == modal36) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1674,6 +1699,7 @@ window.onclick = function(event) {
     modal33.style.display = "none";
     modal34.style.display = "none";
     modal35.style.display = "none";
+    modal36.style.display = "none";
   }
 }
 //<!--End Modals-->
