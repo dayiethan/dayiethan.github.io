@@ -269,7 +269,7 @@ input::-moz-focus-inner {
       <div class="col-md-12">
 
         <div class="portfolio-container">
-          <div class="col-lg-6 col-md-6 portfolio-thumbnail all work volunteering leadership business awards research">
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
             <a>
               <div id="ergodiccbfdiv">
                 <img id="ergodiccbfimg" src="images/Publications/ergodiccbf.png"  alt="ergodiccbf" style="width:300px; cursor:pointer;"> 
@@ -277,10 +277,34 @@ input::-moz-focus-inner {
             </a>
           </div>
           
-          <div class="col-lg-6 col-md-6 portfolio-thumbnail all work volunteering leadership business awards research">
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
             <a>
               <div id="timeoptimalergodicdiv">
                 <img id="timeoptimalergodicimg" src="images/Publications/timeoptimalergodic.png" alt="timeoptimalergodic" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="timeoptimalmultiscalediv">
+                <img id="timeoptimalmultiscaleimg" src="images/Publications/timeoptimalmultiscale.png" alt="timeoptimalmultiscale" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="LLMMCAdiv">
+                <img id="LLMMCAimg" src="images/Publications/LLMMCA.png" alt="LLMMCA" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="meshableergodicdiv">
+                <img id="meshableergodicimg" src="images/Publications/meshableergodic.png" alt="meshableergodic" style="width:300px; cursor:pointer;">
               </div>
             </a>
           </div>
@@ -943,6 +967,94 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="timeoptimalmultiscaleModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('timeoptimalmultiscaleModal').style.display='none'" class="close">&times;</span>
+    <h2>Time Optimal Ergodic Search: Multiscale Coverage in Minimum Time</h2>
+    <br><h4 style="text-align:center;color:#999999;">Accepted to IJRR</h3>
+    <h4 style="text-align:center;color:#999999;">First Author</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">
+      Search and exploration capabilities are essential for robots to inspect hazardous areas, support scientific expeditions in extreme environments, and potentially save human lives in natural disasters.
+    The variability of scale in these problems requires robots to reason about time alongside their dynamics and sensor capabilities to effectively assess and explore for information.
+    Recent advances in ergodic search methods have shown promise in supporting trajectory planning for exploration in continuous, multiscale environments with dynamics consideration. 
+    However, these methods are still limited by their inability to effectively reason about and adapt the time to explore in response to their environment.
+    This ability is crucial for adapting exploration to variable-resolution information-gathering tasks. 
+    To address this limitation, this paper poses the time-optimal ergodic search problem and investigates solutions for fast, multiscale, and adaptive robotic exploration trajectories. 
+    The problem is formulated as a minimum-time problem with an ergodic inequality constraint whose upper bound specifies the amount of coverage needed. 
+    We show the existence of optimal solutions using Pontryagin's conditions of optimality, and we demonstrate effective, minimum-time coverage numerically through a direct transcription optimization approach. 
+    The efficacy of the approach in generating time-optimal search trajectories is demonstrated in simulation under several nonlinear dynamic constraints, and in a physical experiment using a drone in a cluttered environment. 
+    We find that constraints such as obstacle avoidance are readily integrated into our formulation, and we show through an ablation study the flexibility of search capabilities at various scales. 
+    Last, we contribute a receding-horizon formulation of time-optimal ergodic search for sensor-driven information gathering and demonstrate improved adaptive sampling capabilities in localization tasks.  
+    </p>
+      <br>
+      <!-- <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u-x6o8ySG0sC", style="color:#b8a07e;", target="_blank">Google Scholar</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://arxiv.org/abs/2305.11643", style="color:#b8a07e;", target="_blank">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://youtu.be/ftQhK75Ri1E?t=17380", style="color:#b8a07e;", target="_blank">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://drive.google.com/file/d/16y0-UHQLDbroJXAxTLVRZL8a43FmJby9/view?usp=sharing", style="color:#b8a07e;", target="_blank">Poster</a></p> -->
+  </div>
+
+</div>
+
+
+<div id="LLMMCAModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('LLMMCAModal').style.display='none'" class="close">&times;</span>
+    <h2>Leveraging Large Language Models for Effective and Explainable Multi-Agent Credit Assignment</h2>
+    <br><h4 style="text-align:center;color:#999999;">Accepted to AAMAS 2025</h3>
+    <h4 style="text-align:center;color:#999999;">Second Author</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Recent efforts in autonomous vehicle coordination and in-space assembly 
+      have shown the importance of enabling multiple robots collaboration to achieve a shared goal. A common approach for learning this cooperative 
+      behavior is to utilize the centralized-training decentralized-execution paradigm. However, this approach also introduces a new challenge: 
+      how do we evaluate the contributions of each agent's actions to the overall success or failure of the team. This ``credit assignment'' problem 
+      has remained open, and has been extensively studied in the Multi-Agent Reinforcement Learning~(MARL) literature. In fact, humans manually 
+      inspecting agent behavior often generate better credit evaluations than existing methods. We combine this observation with recent works which 
+      show Large Language Models~(LLMs) demonstrate human-level performance at many pattern recognition tasks. Our key idea is to reformulate credit 
+      assignment to the two pattern recognition problems of sequence improvement and attribution, which motivates our novel Large Language Model 
+      Multi-agent Credit Assignment~(LLM-MCA) method. Our approach utilizes a centralized LLM reward-critic which numerically decomposes the 
+      environment reward based on the individualized contribution of each agent in the scenario. We then update the agents' policy networks based on 
+      this feedback. We also propose an extension (LLM-TACA) where our LLM-critic performs explicit task assignment by passing an intermediary goal 
+      directly to each agent policy in the scenario. Both our methods far outperform the state-of-the-art on a variety of benchmarks, including 
+      Level-Based Foraging, Robotic Warehouse, and our new ``Spaceworld'' benchmark which incorporates collision-related safety constraints. As an 
+      artifact of our methods, we generate large trajectory datasets with each timestep annotated with per-agent reward information, as sampled from 
+      our LLM critics. By making this dataset available, we aim to enable future works which can directly train a set of collaborative, decentralized 
+      policies offline.</p>
+      <br>
+      <!-- <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u-x6o8ySG0sC", style="color:#b8a07e;", target="_blank">Google Scholar</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://arxiv.org/abs/2305.11643", style="color:#b8a07e;", target="_blank">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://youtu.be/ftQhK75Ri1E?t=17380", style="color:#b8a07e;", target="_blank">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://drive.google.com/file/d/16y0-UHQLDbroJXAxTLVRZL8a43FmJby9/view?usp=sharing", style="color:#b8a07e;", target="_blank">Poster</a></p> -->
+  </div>
+
+</div>
+
+
+<div id="meshableergodicModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('meshableergodicModal').style.display='none'" class="close">&times;</span>
+    <h2>Ergodic Exploration over Meshable Surfaces</h2>
+    <br><h4 style="text-align:center;color:#999999;">Accepted to ICRA 2025</h3>
+    <h4 style="text-align:center;color:#999999;">First Author</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Robotic search and rescue, exploration, and inspection require trajectory planning across a variety of domains. 
+      A popular approach to trajectory planning for these types of missions is ergodic search, which biases a trajectory to spend time in parts of the exploration domain that 
+      are believed to contain more information. Most prior work on ergodic search has been limited to searching simple surfaces, like a 2D Euclidean plane or a sphere, as 
+      they rely on projecting functions defined on the exploration domain onto analytically obtained Fourier basis functions.  In this paper, we extend ergodic search to any 
+      surface that can be approximated by a triangle mesh. The basis functions are approximated through finite element methods on a triangle mesh of the domain. We formally 
+      prove that this approximation converges to the continuous case as the mesh approximation converges to the true domain. We demonstrate that on domains where analytical 
+      basis functions are available (plane, sphere) the proposed method obtains equivalent results while on other domains (torus, bunny, wind turbine) the approach is versatile 
+      enough to still search effectively.  Lastly, we also compare with an existing ergodic search technique that can handle complex domains and show that our method results in 
+      a higher quality exploration.</p>
+      <br>
+      <!-- <p><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2vDBmI0AAAAJ&citation_for_view=2vDBmI0AAAAJ:u-x6o8ySG0sC", style="color:#b8a07e;", target="_blank">Google Scholar</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://arxiv.org/abs/2305.11643", style="color:#b8a07e;", target="_blank">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://youtu.be/ftQhK75Ri1E?t=17380", style="color:#b8a07e;", target="_blank">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://drive.google.com/file/d/16y0-UHQLDbroJXAxTLVRZL8a43FmJby9/view?usp=sharing", style="color:#b8a07e;", target="_blank">Poster</a></p> -->
+  </div>
+
+</div>
+
 
 <div id="allamericaModal" class="modal">
   
@@ -1512,6 +1624,9 @@ var modal33 = document.getElementById("pascharModal");
 var modal34 = document.getElementById("ivyModal");
 var modal35 = document.getElementById("tutorModal");
 var modal36 = document.getElementById("berkfellowModal");
+var modal37 = document.getElementById("timeoptimalmultiscaleModal");
+var modal38 = document.getElementById("LLMMCAModal");
+var modal39 = document.getElementById("meshableergodicModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1550,6 +1665,9 @@ var btn33 = document.getElementById("paschar");
 var btn34 = document.getElementById("ivy");
 var btn35 = document.getElementById("tutor");
 var btn36 = document.getElementById("berkfellow");
+var btn37 = document.getElementById("timeoptimalmultiscalediv");
+var btn38 = document.getElementById("LLMMCAdiv");
+var btn39 = document.getElementById("meshableergodicdiv");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1660,10 +1778,19 @@ btn35.onclick = function() {
 btn36.onclick = function() {
   modal36.style.display = "block";
 }
+btn37.onclick = function() {
+  modal37.style.display = "block";
+}
+btn38.onclick = function() {
+  modal38.style.display = "block";
+}
+btn39.onclick = function() {
+  modal39.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35 || event.target == modal36) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35 || event.target == modal36 || event.target == modal37 || event.target == modal38 || event.target == modal39) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1700,6 +1827,9 @@ window.onclick = function(event) {
     modal34.style.display = "none";
     modal35.style.display = "none";
     modal36.style.display = "none";
+    modal37.style.display = "none";
+    modal38.style.display = "none";
+    modal39.style.display = "none";
   }
 }
 //<!--End Modals-->

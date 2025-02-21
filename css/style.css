@@ -827,11 +827,29 @@ th, td {
 #timeoptimalergodicimg{
   border:1px solid black;
 }
+#timeoptimalmultiscaleimg{
+  border:1px solid black;
+}
+#LLMMCAimg{
+  border:1px solid black;
+}
+#meshableergodicimg{
+  border:1px solid black;
+}
 
 #ergodiccbfimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #timeoptimalergodicimg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#timeoptimalmultiscaleimg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#LLMMCAimg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#meshableergodicimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 
