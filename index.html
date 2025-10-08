@@ -269,26 +269,11 @@ input::-moz-focus-inner {
       <div class="col-md-12">
 
         <div class="portfolio-container">
-          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
-            <a>
-              <div id="ergodiccbfdiv">
-                <img id="ergodiccbfimg" src="images/Publications/ergodiccbf.png"  alt="ergodiccbf" style="width:300px; cursor:pointer;"> 
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
-            <a>
-              <div id="timeoptimalergodicdiv">
-                <img id="timeoptimalergodicimg" src="images/Publications/timeoptimalergodic.png" alt="timeoptimalergodic" style="width:300px; cursor:pointer;">
-              </div>
-            </a>
-          </div>
 
           <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
             <a>
-              <div id="timeoptimalmultiscalediv">
-                <img id="timeoptimalmultiscaleimg" src="images/Publications/timeoptimalmultiscale.png" alt="timeoptimalmultiscale" style="width:300px; cursor:pointer;">
+              <div id="mimicddiv">
+                <img id="mimicdimg" src="images/Publications/mimicd.png" alt="mimicd" style="width:300px; cursor:pointer;">
               </div>
             </a>
           </div>
@@ -305,6 +290,30 @@ input::-moz-focus-inner {
             <a>
               <div id="meshableergodicdiv">
                 <img id="meshableergodicimg" src="images/Publications/meshableergodic.png" alt="meshableergodic" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="timeoptimalmultiscalediv">
+                <img id="timeoptimalmultiscaleimg" src="images/Publications/timeoptimalmultiscale.png" alt="timeoptimalmultiscale" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="timeoptimalergodicdiv">
+                <img id="timeoptimalergodicimg" src="images/Publications/timeoptimalergodic.png" alt="timeoptimalergodic" style="width:300px; cursor:pointer;">
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 portfolio-thumbnail all work volunteering leadership business awards research">
+            <a>
+              <div id="ergodiccbfdiv">
+                <img id="ergodiccbfimg" src="images/Publications/ergodiccbf.png"  alt="ergodiccbf" style="width:300px; cursor:pointer;"> 
               </div>
             </a>
           </div>
@@ -344,6 +353,14 @@ input::-moz-focus-inner {
           </div>
 
           <div class="portfolio-container">
+
+            <div class="col-lg-3 col-md-6 portfolio-thumbnail all research work">
+              <a>
+                <div>
+                  <img id="hri" src="images/portfolio/hri.png" alt="hri" style="cursor:pointer;">
+                </div>
+              </a>
+            </div>
 
             <div class="col-lg-3 col-md-6 portfolio-thumbnail all awards research">
               <a>
@@ -1045,6 +1062,32 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="mimicdModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('mimicdModal').style.display='none'" class="close">&times;</span>
+    <h2>MIMIC-D: Multi-modal Imitation for MultI-agent Coordination with Decentralized Diffusion Policies</h2>
+    <br><h4 style="text-align:center;color:#999999;">Pending Review</h3>
+    <h4 style="text-align:center;color:#999999;">First Author</h3>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">As robots become more integrated in society, their ability to coordinate with other 
+      robots and humans on multi-modal tasks (those with multiple valid solutions) is crucial. We propose to learn such behaviors from expert demonstrations 
+      via imitation learning (IL). However, when expert demonstrations are multi-modal, standard IL approaches can struggle to capture the diverse strategies, 
+      hindering effective coordination. Diffusion models are known to be effective at handling complex multi-modal trajectory distributions in single-agent 
+      systems. Diffusion models have also excelled in multi-agent scenarios where multi-modality is more common and crucial to learning coordinated behaviors. 
+      Typically, diffusion-based approaches require a centralized planner or explicit communication among agents, but this assumption can fail in real-world 
+      scenarios where robots must operate independently or with agents like humans that they cannot directly communicate with. Therefore, we propose MIMIC-D, 
+      a Centralized Training, Decentralized Execution (CTDE) paradigm for multi-modal multi-agent imitation learning using diffusion policies. Agents are 
+      trained jointly with full information, but execute policies using only local information to achieve implicit coordination. We demonstrate in both simulation 
+      and hardware experiments that our method recovers multi-modal coordination behavior among agents in a variety of tasks and environments, while improving 
+      upon state-of-the-art baselines. </p>
+      <br>
+      <p>
+        <a href="https://arxiv.org/abs/2509.14159", style="color:#b8a07e;", target="_blank">ArXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+        <a href="https://iconlab.negarmehr.com/MIMIC-D/", style="color:#b8a07e;", target="_blank">Website</a></p>
+  </div>
+
+</div>
+
 
 <div id="meshableergodicModal" class="modal">
   
@@ -1398,6 +1441,18 @@ input::-moz-focus-inner {
 
 </div>
 
+<div id="hriModal" class="modal">
+  
+  <div class="modal-content">
+    <span onclick="document.getElementById('hriModal').style.display='none'" class="close">&times;</span>
+    <h2>Honda Research Institute</h2>
+    <h4 style="text-align:center;color:#999999;">SEP 2025 - DEC 2025</h4>
+    <p style="text-align:left; margin-left:6vw;margin-right:6vw;">Working as a Robotics Software Engineering Intern to improve existing autonomous driving algorithms under Dr. David Isle.</p>
+    <br><a style="color:#b8a07e;" target="_blank" href="https://usa.honda-ri.com/">Website</a>
+  </div>
+
+</div>
+
 <div id="berkfellowModal" class="modal">
   
   <div class="modal-content">
@@ -1669,6 +1724,8 @@ var modal38 = document.getElementById("LLMMCAModal");
 var modal39 = document.getElementById("meshableergodicModal");
 var modal40 = document.getElementById("berkeliumModal");
 var modal41 = document.getElementById("ndsegModal");
+var modal42 = document.getElementById("hriModal");
+var modal43 = document.getElementById("mimicdModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("westdiv");
@@ -1712,6 +1769,8 @@ var btn38 = document.getElementById("LLMMCAdiv");
 var btn39 = document.getElementById("meshableergodicdiv");
 var btn40 = document.getElementById("berkelium");
 var btn41 = document.getElementById("ndseg");
+var btn42 = document.getElementById("hri");
+var btn43 = document.getElementById("mimicddiv");
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -1837,10 +1896,16 @@ btn40.onclick = function() {
 btn41.onclick = function() {
   modal41.style.display = "block";
 }
+btn42.onclick = function() {
+  modal42.style.display = "block";
+}
+btn43.onclick = function() {
+  modal43.style.display = "block";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35 || event.target == modal36 || event.target == modal37 || event.target == modal38 || event.target == modal39 || event.target == modal40 || event.target == modal41) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7 || event.target == modal8 || event.target == modal9 || event.target == modal10 || event.target == modal11 || event.target == modal12 || event.target == modal13 || event.target == modal14 || event.target == modal15 || event.target == modal16 || event.target == modal17 || event.target == modal18 || event.target == modal19 || event.target == modal20 || event.target == modal21 || event.target == modal22 || event.target == modal23 || event.target == modal24 || event.target == modal25 || event.target == modal26 || event.target == modal27 || event.target == modal28 || event.target == modal29 || event.target == modal30 || event.target == modal31 || event.target == modal32 || event.target == modal33 || event.target == modal34 || event.target == modal35 || event.target == modal36 || event.target == modal37 || event.target == modal38 || event.target == modal39 || event.target == modal40 || event.target == modal41 || event.target == modal42 || event.target == modal43) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
@@ -1882,6 +1947,8 @@ window.onclick = function(event) {
     modal39.style.display = "none";
     modal40.style.display = "none";
     modal41.style.display = "none";
+    modal42.style.display = "none";
+    modal43.style.display = "none";
   }
 }
 //<!--End Modals-->

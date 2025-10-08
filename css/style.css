@@ -833,6 +833,9 @@ th, td {
 #LLMMCAimg{
   border:1px solid black;
 }
+#mimicdimg{
+  border:1px solid black;
+}
 #meshableergodicimg{
   border:1px solid black;
 }
@@ -847,6 +850,9 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #LLMMCAimg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#mimicdimg:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #meshableergodicimg:hover{
@@ -1226,6 +1232,26 @@ th, td {
 
 }
 
+.grid-container-hri {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-hri > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
 .grid-container-ivy {
   display: grid;
   grid-template-columns: auto auto;
@@ -1394,6 +1420,9 @@ th, td {
 #ndseg{
   border:1px solid black;
 }
+#hri{
+  border:1px solid black;
+}
 #ivy{
   border:1px solid black;
 }
@@ -1489,6 +1518,9 @@ th, td {
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #ndseg:hover{
+  box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
+}
+#hri:hover{
   box-shadow: 0 10px 20px rgba(184,160,126,0.19), 0 6px 6px rgba(184,160,126,0.23);
 }
 #ivy:hover{
